@@ -1,6 +1,6 @@
 
 
-export default function Show({ show, key }) {
+const Show =({ show, key }) => {
   console.log(show.name)
   return (
     <div key={key} className={"show-wrapper"}>
@@ -11,3 +11,6 @@ export default function Show({ show, key }) {
     </div>
   )
 }
+
+Show.displayName = "Show";
+export default Show;
