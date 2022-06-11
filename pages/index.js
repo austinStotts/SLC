@@ -3,7 +3,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
 import Show from "./components/show";
-import shows from "../map.json"
+import shows from "./map.json"
 
 
 export default function Home() {
