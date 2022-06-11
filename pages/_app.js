@@ -2,7 +2,7 @@ import React from 'react'
 import Head from 'next/head'
 import styles from '../styles/shows.css'
 
-let kawaii = ['(* ^ ω ^)', '(─‿‿─)', '(っ˘ω˘ς )', '(¬‿¬ )', '(ｏ・_・)ノ”(ノ_<、)', '(」°ロ°)」', '(＞﹏＜)', '( ` ω ´ )', '.･ﾟﾟ･(／ω＼)･ﾟﾟ･.', '┐(‘～` )┌', 'ᕕ( ᐛ )ᕗ'];
+let kawaii = ['(^=◕ᴥ◕=^)', '(* ^ ω ^)', '(─‿‿─)', '(っ˘ω˘ς )', '(¬‿¬ )', '(ｏ・_・)ノ”(ノ_<、)', '(」°ロ°)」', '(＞﹏＜)', '( ` ω ´ )', '.･ﾟﾟ･(／ω＼)･ﾟﾟ･.', '┐(‘～` )┌', 'ᕕ( ᐛ )ᕗ'];
 
 
 function MyApp({ Component, pageProps }) {
