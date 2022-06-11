@@ -1,0 +1,58 @@
+{
+  "shows": [
+    {
+      "name": "Bakemonogatari",
+      "filename": "bakemonogatari",
+      "url": "",
+      "promo": "https://stevelovescartoons.s3.us-east-2.amazonaws.com/shows/bakemonogatari/assets/promo.jpeg",
+      "banner": "https://stevelovescartoons.s3.us-east-2.amazonaws.com/shows/bakemonogatari/assets/banner.jpeg",
+      "year": "2009",
+      "studio": "Shaft"
+    },
+    {
+      "name": "Koyomimonogatari",
+      "filename": "koyomimonogatari",
+      "url": "",
+      "promo": "https://stevelovescartoons.s3.us-east-2.amazonaws.com/shows/koyomimonogatari/assets/promo.jpeg",
+      "banner": "https://stevelovescartoons.s3.us-east-2.amazonaws.com/shows/koyomimonogatari/assets/banner.jpg",
+      "year": "2016",
+      "studio": "Shaft"
+    },
+    {
+      "name": "Monogatari Series Second Season",
+      "filename": "monogatari_series_second_season",
+      "url": "",
+      "promo": "https://stevelovescartoons.s3.us-east-2.amazonaws.com/shows/monogatari_series_second_season/assets/promo.jpeg",
+      "banner": "https://stevelovescartoons.s3.us-east-2.amazonaws.com/shows/monogatari_series_second_season/assets/promo.jpeg",
+      "year": "2013",
+      "studio": "Shaft"
+    },
+    {
+      "name": "Nisemonogatari",
+      "filename": "nisemonogatari",
+      "url": "",
+      "promo": "https://stevelovescartoons.s3.us-east-2.amazonaws.com/shows/nisemonogatari/assets/promo.jpg",
+      "banner": "https://stevelovescartoons.s3.us-east-2.amazonaws.com/shows/nisemonogatari/assets/banner.jpg",
+      "year": "2012",
+      "studio": "Shaft"
+    },
+    {
+      "name": "Owarimonogatari Second Season",
+      "filename": "owarimonogatari_second_season",
+      "url": "",
+      "promo": "https://stevelovescartoons.s3.us-east-2.amazonaws.com/shows/owarimonogatari_second_season/assets/promo.jpeg",
+      "banner": "https://stevelovescartoons.s3.us-east-2.amazonaws.com/shows/owarimonogatari_second_season/assets/banner.jpg",
+      "year": "2017",
+      "studio": "Shaft"
+    },
+    {
+      "name": "Owarimonogatari",
+      "filename": "owarimonogatari",
+      "url": "",
+      "promo": "https://stevelovescartoons.s3.us-east-2.amazonaws.com/shows/owarimonogatari/assets/promo.jpg",
+      "banner": "https://stevelovescartoons.s3.us-east-2.amazonaws.com/shows/owarimonogatari/assets/banner.jpg",
+      "year": "2015",
+      "studio": "Shaft"
+    }
+  ]
+}
