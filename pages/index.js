@@ -14,7 +14,7 @@ export default function Home() {
       <div className="shows-wrapper">
         {shows.shows.map((show) => {
           return (
-            <Show show={show}/>
+            <Show show={show} key={show.name}/>
           )
         })}
       </div>
