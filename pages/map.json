@@ -2,16 +2,19 @@
   "shows": [
     {
       "name": "Bakemonogatari",
-      "filename": "bakemonogatari",
+      "showid": "bakemonogatari",
       "url": "",
       "promo": "https://stevelovescartoons.s3.us-east-2.amazonaws.com/shows/bakemonogatari/assets/promo.jpeg",
       "banner": "https://stevelovescartoons.s3.us-east-2.amazonaws.com/shows/bakemonogatari/assets/banner.jpeg",
       "year": "2009",
-      "studio": "Shaft"
+      "studio": "Shaft",
+      "episodes": {
+        "1": ""
+      }
     },
     {
       "name": "Koyomimonogatari",
-      "filename": "koyomimonogatari",
+      "showid": "koyomimonogatari",
       "url": "",
       "promo": "https://stevelovescartoons.s3.us-east-2.amazonaws.com/shows/koyomimonogatari/assets/promo.jpeg",
       "banner": "https://stevelovescartoons.s3.us-east-2.amazonaws.com/shows/koyomimonogatari/assets/banner.jpg",
@@ -20,7 +23,7 @@
     },
     {
       "name": "Monogatari Series Second Season",
-      "filename": "monogatari_series_second_season",
+      "showid": "monogatari_series_second_season",
       "url": "",
       "promo": "https://stevelovescartoons.s3.us-east-2.amazonaws.com/shows/monogatari_series_second_season/assets/promo.jpeg",
       "banner": "https://stevelovescartoons.s3.us-east-2.amazonaws.com/shows/monogatari_series_second_season/assets/promo.jpeg",
@@ -29,7 +32,7 @@
     },
     {
       "name": "Nisemonogatari",
-      "filename": "nisemonogatari",
+      "showid": "nisemonogatari",
       "url": "",
       "promo": "https://stevelovescartoons.s3.us-east-2.amazonaws.com/shows/nisemonogatari/assets/promo.jpg",
       "banner": "https://stevelovescartoons.s3.us-east-2.amazonaws.com/shows/nisemonogatari/assets/banner.jpg",
@@ -38,7 +41,7 @@
     },
     {
       "name": "Owarimonogatari Second Season",
-      "filename": "owarimonogatari_second_season",
+      "showid": "owarimonogatari_second_season",
       "url": "",
       "promo": "https://stevelovescartoons.s3.us-east-2.amazonaws.com/shows/owarimonogatari_second_season/assets/promo.jpeg",
       "banner": "https://stevelovescartoons.s3.us-east-2.amazonaws.com/shows/owarimonogatari_second_season/assets/banner.jpg",
@@ -47,7 +50,7 @@
     },
     {
       "name": "Owarimonogatari",
-      "filename": "owarimonogatari",
+      "showid": "owarimonogatari",
       "url": "",
       "promo": "https://stevelovescartoons.s3.us-east-2.amazonaws.com/shows/owarimonogatari/assets/promo.jpg",
       "banner": "https://stevelovescartoons.s3.us-east-2.amazonaws.com/shows/owarimonogatari/assets/banner.jpg",
