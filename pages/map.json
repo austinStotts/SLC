@@ -56,6 +56,60 @@
       "banner": "https://stevelovescartoons.s3.us-east-2.amazonaws.com/shows/owarimonogatari/assets/banner.jpg",
       "year": "2015",
       "studio": "Shaft"
+    },
+    {
+      "name": "",
+      "showid": "",
+      "url": "",
+      "promo": "",
+      "banner": "",
+      "year": "",
+      "studio": ""
+    },
+    {
+      "name": "Summer Time Rendering",
+      "showid": "summer_time_rendering",
+      "url": "https://stevelovescartoons.s3.us-east-2.amazonaws.com/shows/summer_time_rendering/assets/banner.jpeg",
+      "promo": "https://stevelovescartoons.s3.us-east-2.amazonaws.com/shows/summer_time_rendering/assets/promo.jpeg",
+      "banner": "",
+      "year": "2022",
+      "studio": "OLM"
+    },
+    {
+      "name": "Land of the Lustrous",
+      "showid": "land_of_the_lustrous",
+      "url": "",
+      "promo": "https://stevelovescartoons.s3.us-east-2.amazonaws.com/shows/land_of_the_lustrous/assets/promo.jpeg",
+      "banner": "https://stevelovescartoons.s3.us-east-2.amazonaws.com/shows/land_of_the_lustrous/assets/banner.jpeg",
+      "year": "2017",
+      "studio": "Orange"
+    },
+    {
+      "name": "Demon Slayer: Kimetsu no Yaiba",
+      "showid": "demon_slayer_kimetsu_no_yaiba",
+      "url": "",
+      "promo": "https://stevelovescartoons.s3.us-east-2.amazonaws.com/shows/demon_slayer_kimetsu_no_yaiba/assets/promo.jpeg",
+      "banner": "https://stevelovescartoons.s3.us-east-2.amazonaws.com/shows/demon_slayer_kimetsu_no_yaiba/assets/banner.jpeg",
+      "year": "2019",
+      "studio": "Ufotable"
+    },
+    {
+      "name": "Demon Slayer -Kimetsu no Yaiba- The Movie: Mugen Train",
+      "showid": "demon_slayer_kimetsu_no_yaiba_mugen_train",
+      "url": "",
+      "promo": "https://stevelovescartoons.s3.us-east-2.amazonaws.com/shows/demon_slayer_kimetsu_no_yaiba_mugen_train/assets/promo.jpeg",
+      "banner": "https://stevelovescartoons.s3.us-east-2.amazonaws.com/shows/demon_slayer_kimetsu_no_yaiba_mugen_train/assets/banner.jpeg",
+      "year": "2020",
+      "studio": "Ufotable"
+    },
+    {
+      "name": "Demon Slayer: Kimetsu no Yaiba Entertainment District Arc",
+      "showid": "demon_slayer_kimetsu_no_yaiba_entertainment_district_arc",
+      "url": "",
+      "promo": "https://stevelovescartoons.s3.us-east-2.amazonaws.com/shows/demon_slayer_kimetsu_no_yaiba_entertainment_district_arc/assets/promo.jpg",
+      "banner": "https://stevelovescartoons.s3.us-east-2.amazonaws.com/shows/demon_slayer_kimetsu_no_yaiba_entertainment_district_arc/assets/banner.jpg",
+      "year": "2021",
+      "studio": "Ufotable"
     }
   ]
 }

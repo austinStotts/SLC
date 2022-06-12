@@ -15,9 +15,13 @@ export default function Home() {
 
       <div className="shows-wrapper">
         {shows.shows.map((show) => {
-          return (
-            <Show show={show} key={show.name}/>
-          )
+          if(show.name) {
+            return (
+              <Show show={show} key={show.name}/>
+            )
+          } else {
+            return
+          }
         })}
       </div>
     </div>
