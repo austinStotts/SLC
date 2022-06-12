@@ -89,7 +89,7 @@ body {
 }
 
 .show-title {
- font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ font-family: 'Roboto', sans-serif;
  font-size: 20px;
  width: 80%;
  text-align: center;
@@ -105,7 +105,7 @@ body {
 }
 
 .show-studio {
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: white;
   font-size: 20px;
   position: absolute;
@@ -119,7 +119,7 @@ body {
 }
 
 .show-year {
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Roboto Mono', monospace;
   font-style: italic;
   color: black;
   font-size: 20px;
