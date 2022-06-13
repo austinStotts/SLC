@@ -64,7 +64,6 @@ body {
 
 .show-info {
   position: absolute;
-  font-family: Roboto;
   bottom: 0;
   left: 0;
   right: 0;
@@ -90,11 +89,10 @@ body {
 
 .show-title {
  font-family: 'Roboto', sans-serif;
- font-size: 20px;
+ font-size: 22px;
  width: 80%;
  text-align: center;
  color: white;
- font-size: 20px;
  position: absolute;
  top: 25%;
  left: 50%;
