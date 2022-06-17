@@ -5,6 +5,7 @@ import Axios from "axios";
 import { Component } from 'react';
 import axios from 'axios';
 
+
 const showdata =     {
   "name": "Bakemonogatari",
   "showid": "bakemonogatari",
