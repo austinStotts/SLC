@@ -1,7 +1,7 @@
 
 
 
-const Show = ({ show }) => {
+const ShowItem = ({ show }) => {
   if(show) {
     return (
       <div className={"show-wrapper"}>
@@ -18,5 +18,5 @@ const Show = ({ show }) => {
   }
 }
 
-Show.displayName = "Show";
-export default Show;
+ShowItem.displayName = "ShowItem";
+export default ShowItem;

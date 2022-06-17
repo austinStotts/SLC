@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
-import Show from "./components/show";
+import ShowItem from "./components/showitem";
 import Header from "./components/header";
 
 import shows from "./map.json"
@@ -17,7 +17,7 @@ export default function Home() {
         {shows.shows.map((show) => {
           if(show.name) {
             return (
-              <Show show={show} key={show.name}/>
+              <ShowItem show={show} key={show.name}/>
             )
           } else {
             return

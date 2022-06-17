@@ -1,0 +1,72 @@
+.showpage-wrapper {
+
+}
+
+
+
+.sp-banner {
+  width: 100%;
+}
+
+.sp-bellow-wrapper {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  grid-template-rows: auto;
+  margin-left: 5%;
+  margin-right: 5%;
+  
+}
+
+.show-details {
+  padding-top: 100px;
+}
+
+.sp-banner-img {
+  background-position: 50% 35%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  margin-top: -58px;
+  box-sizing: border-box;
+  display: block;
+}
+
+.sp-image {
+  width: 230px;
+  height: 310px;
+  border-radius: 10px;
+}
+
+.episode-wrapper {
+  padding-top: 100px;
+}
+
+.episode-list {
+  height: 600px;
+  overflow: auto;
+  width: 350px;
+  margin-left: 250px;
+}
+
+.episode-item-wrapper {
+  width: 300px;
+  height: 50px;
+  border-radius: 25px;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 25px;
+  border: 2px solid rebeccapurple;
+  margin: 10px 0px;
+  transition-duration: 0.1;
+}
+
+.episode {
+  position: relative;
+  left: 30px;
+  top: 12px;
+}
+
+.episode-item-wrapper:hover {
+  background-color: rebeccapurple;
+  cursor: pointer;
+}
