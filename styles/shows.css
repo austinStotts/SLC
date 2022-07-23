@@ -142,7 +142,7 @@ body {
 
 /* // // // // // // // // // // // // //*/
 
-.header-wrapper {
+/* .header-wrapper {
   display: grid;
   background-color: rgba(0, 0, 0, 0.4);
   backdrop-filter: saturate(180%) blur(20px);
@@ -185,4 +185,4 @@ body {
   text-align: center;
   color: white;
   font-family: 'Roboto', sans-serif;
-}
+} */

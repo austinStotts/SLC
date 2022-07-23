@@ -7,7 +7,7 @@ const ShowItem = ({ show }) => {
   const toShowPage = () => {
     router.push(`/show/${show.showid}`);
   }
-  console.log(show);
+  // console.log(show);
   if(show) {
     return (
       <div className="show-wrapper" onClick={toShowPage}>

@@ -1,5 +1,14 @@
+body {
+  margin: 0;
+}
+
 .showpage-wrapper {
   max-width: 100%;
+}
+
+.show-page-main-wrapper {
+  margin: 0px;
+  padding: 0px;
 }
 
 /* wowß */
@@ -22,11 +31,12 @@
 }
 
 .sp-banner-img {
+  
   background-position: 50% 35%;
   background-repeat: no-repeat;
   background-size: cover;
   height: 400px;
-  margin-top: -58px;
+  margin-top: 0px;
   box-sizing: border-box;
   display: block;
 }
