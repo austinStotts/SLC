@@ -4,13 +4,14 @@ import styles from '../styles/Home.module.css'
 
 import ShowItem from "./components/showitem";
 import Header from "./components/header";
+import Footer from './components/footer';
 
 import shows from "./map.json"
 
 
 export default function Home() {
   return (
-    <div>
+    <div className='ultra-wrapper'>
       <Header />
 
       <div className="shows-wrapper">
@@ -24,6 +25,8 @@ export default function Home() {
           }
         })}
       </div>
+      <Footer />
     </div>
+    
   )
 }

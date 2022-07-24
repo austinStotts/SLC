@@ -2,14 +2,21 @@ body {
   background-color: rgb(26, 26, 26);
 }
 
+.ultra-wrapper {
+  overflow: hidden;
+}
+
 .shows-wrapper {
   padding: 5%;
   display: grid;
   grid-template-columns: repeat(6, 230px);
-  grid-auto-rows: auto;
+  grid-auto-rows: 310px;
   row-gap: 10%;
   column-gap: 5%;
   max-width: 2000px;
+  margin-top: 75px;
+  z-index: 0;
+  height: 1500px;
 }
 
 

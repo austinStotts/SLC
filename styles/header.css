@@ -1,16 +1,19 @@
 .header {
   width: 100%;
-  position: relative;
+  position: fixed;
   display: block;
   height: 75px;
   color: white;
   border-bottom: 3px solid rebeccapurple;
   background-color: #101010;
   font-family: 'Roboto', sans-serif;
+  overflow: hidden;
+  z-index: 1;
 }
 
 .inner-header {
-  width: 1000px;
+  width: 80%;
+  max-width: 1000px;
   height: 100%;
   display: block;
   margin: 0 auto;
@@ -72,3 +75,59 @@
   cursor: pointer;
   color: rgb(153, 72, 153);
 }
+
+
+/* -8- -8- -8- FOOTER STUFF -8- -8- -8- */
+
+.footer {
+  width: 100%;
+  position: fixed;
+  display: block;
+  bottom: 0;
+  height: 40px;
+  color: grey;
+  border-bottom: 3px solid rebeccapurple;
+  background-color: #232323;
+  font-family: 'Roboto', sans-serif;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.inner-footer {
+ width: 100%;
+ /* max-width: 1000px; */
+ height: 100%;
+ /* display: block; */
+ margin: 0 auto;
+}
+
+.footer-list {
+  height: 100%;
+  display: table;
+  float: right;
+}
+
+.footer-list a {
+  height: 100%;
+  float: right;
+  padding: 0 20px;
+}
+
+.footer-list a li {
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+/* .author {
+  display: table-cell;
+  float: right;
+  vertical-align: middle;
+}
+
+.version {
+  display: table-cell;
+  float: right;
+  vertical-align: middle;
+} */
