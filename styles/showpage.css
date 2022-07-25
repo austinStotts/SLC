@@ -31,14 +31,15 @@ body {
 }
 
 .sp-banner-img {
-  
-  background-position: 50% 35%;
+  background-position: 70% 35%;
   background-repeat: no-repeat;
   background-size: cover;
   height: 400px;
   margin-top: 0px;
   box-sizing: border-box;
   display: block;
+  overflow: hidden;
+  background-position: top;
 }
 
 .sp-image {
