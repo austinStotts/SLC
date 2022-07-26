@@ -23,7 +23,7 @@ body {
   grid-template-rows: auto;
   margin-left: 5%;
   margin-right: 5%;
-  
+  min-height: 1000px;
 }
 
 .show-details {

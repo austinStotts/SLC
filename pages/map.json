@@ -8,9 +8,7 @@
       "banner": "https://stevelovescartoons.s3.us-east-2.amazonaws.com/shows/bakemonogatari/assets/banner.jpeg",
       "year": "2009",
       "studio": "Shaft",
-      "episodes": {
-        "1": ""
-      }
+      "episodes": "15"
     },
     {
       "name": "Koyomimonogatari",
@@ -19,16 +17,18 @@
       "promo": "https://stevelovescartoons.s3.us-east-2.amazonaws.com/shows/koyomimonogatari/assets/promo.jpeg",
       "banner": "https://stevelovescartoons.s3.us-east-2.amazonaws.com/shows/koyomimonogatari/assets/banner.jpg",
       "year": "2016",
-      "studio": "Shaft"
+      "studio": "Shaft",
+      "episodes": "12"
     },
     {
       "name": "Monogatari Series Second Season",
       "showid": "monogatari_series_second_season",
       "url": "",
       "promo": "https://stevelovescartoons.s3.us-east-2.amazonaws.com/shows/monogatari_series_second_season/assets/promo.jpeg",
-      "banner": "https://stevelovescartoons.s3.us-east-2.amazonaws.com/shows/monogatari_series_second_season/assets/promo.jpeg",
+      "banner": "https://stevelovescartoons.s3.us-east-2.amazonaws.com/shows/monogatari_series_second_season/assets/banner.jpg",
       "year": "2013",
-      "studio": "Shaft"
+      "studio": "Shaft",
+      "episodes": "26"
     },
     {
       "name": "Nisemonogatari",
@@ -37,7 +37,8 @@
       "promo": "https://stevelovescartoons.s3.us-east-2.amazonaws.com/shows/nisemonogatari/assets/promo.jpg",
       "banner": "https://stevelovescartoons.s3.us-east-2.amazonaws.com/shows/nisemonogatari/assets/banner.jpg",
       "year": "2012",
-      "studio": "Shaft"
+      "studio": "Shaft",
+      "episodes": "11"
     },
     {
       "name": "Owarimonogatari Second Season",
@@ -46,34 +47,28 @@
       "promo": "https://stevelovescartoons.s3.us-east-2.amazonaws.com/shows/owarimonogatari_second_season/assets/promo.jpeg",
       "banner": "https://stevelovescartoons.s3.us-east-2.amazonaws.com/shows/owarimonogatari_second_season/assets/banner.jpg",
       "year": "2017",
-      "studio": "Shaft"
+      "studio": "Shaft",
+      "episodes": "7"
     },
     {
       "name": "Owarimonogatari",
       "showid": "owarimonogatari",
-      "url": "",
+      "url": "https://stevelovescartoons.s3.us-east-2.amazonaws.com/shows/owarimonogatari",
       "promo": "https://stevelovescartoons.s3.us-east-2.amazonaws.com/shows/owarimonogatari/assets/promo.jpg",
       "banner": "https://stevelovescartoons.s3.us-east-2.amazonaws.com/shows/owarimonogatari/assets/banner.jpg",
       "year": "2015",
-      "studio": "Shaft"
-    },
-    {
-      "name": "",
-      "showid": "",
-      "url": "",
-      "promo": "",
-      "banner": "",
-      "year": "",
-      "studio": ""
+      "studio": "Shaft",
+      "episodes": "12"
     },
     {
       "name": "Summer Time Rendering",
       "showid": "summer_time_rendering",
-      "url": "https://stevelovescartoons.s3.us-east-2.amazonaws.com/shows/summer_time_rendering/assets/banner.jpeg",
+      "url": "https://stevelovescartoons.s3.us-east-2.amazonaws.com/shows/summer_time_rendering",
       "promo": "https://stevelovescartoons.s3.us-east-2.amazonaws.com/shows/summer_time_rendering/assets/promo.jpeg",
-      "banner": "",
+      "banner": "https://stevelovescartoons.s3.us-east-2.amazonaws.com/shows/summer_time_rendering/assets/banner.jpeg",
       "year": "2022",
-      "studio": "OLM"
+      "studio": "OLM",
+      "episodes": "25"
     },
     {
       "name": "Land of the Lustrous",
@@ -82,16 +77,18 @@
       "promo": "https://stevelovescartoons.s3.us-east-2.amazonaws.com/shows/land_of_the_lustrous/assets/promo.jpeg",
       "banner": "https://stevelovescartoons.s3.us-east-2.amazonaws.com/shows/land_of_the_lustrous/assets/banner.jpeg",
       "year": "2017",
-      "studio": "Orange"
+      "studio": "Orange",
+      "episodes": "12"
     },
     {
       "name": "Demon Slayer: Kimetsu no Yaiba",
       "showid": "demon_slayer_kimetsu_no_yaiba",
       "url": "",
       "promo": "https://stevelovescartoons.s3.us-east-2.amazonaws.com/shows/demon_slayer_kimetsu_no_yaiba/assets/promo.jpeg",
-      "banner": "https://stevelovescartoons.s3.us-east-2.amazonaws.com/shows/demon_slayer_kimetsu_no_yaiba/assets/banner.jpeg",
+      "banner": "https://stevelovescartoons.s3.us-east-2.amazonaws.com/shows/demon_slayer_kimetsu_no_yaiba/assets/banner.jpg",
       "year": "2019",
-      "studio": "Ufotable"
+      "studio": "Ufotable",
+      "episodes": "26"
     },
     {
       "name": "Demon Slayer -Kimetsu no Yaiba- The Movie: Mugen Train",
@@ -100,16 +97,18 @@
       "promo": "https://stevelovescartoons.s3.us-east-2.amazonaws.com/shows/demon_slayer_kimetsu_no_yaiba_mugen_train/assets/promo.jpeg",
       "banner": "https://stevelovescartoons.s3.us-east-2.amazonaws.com/shows/demon_slayer_kimetsu_no_yaiba_mugen_train/assets/banner.jpeg",
       "year": "2020",
-      "studio": "Ufotable"
+      "studio": "Ufotable",
+      "episodes": "1"
     },
     {
       "name": "Demon Slayer: Kimetsu no Yaiba Entertainment District Arc",
       "showid": "demon_slayer_kimetsu_no_yaiba_entertainment_district_arc",
       "url": "",
-      "promo": "https://stevelovescartoons.s3.us-east-2.amazonaws.com/shows/demon_slayer_kimetsu_no_yaiba_entertainment_district_arc/assets/promo.jpg",
-      "banner": "https://stevelovescartoons.s3.us-east-2.amazonaws.com/shows/demon_slayer_kimetsu_no_yaiba_entertainment_district_arc/assets/banner.jpg",
+      "promo": "https://stevelovescartoons.s3.us-east-2.amazonaws.com/shows/demon_slayer_kimetsu_no_yaiba_entertainment_district_arc/assets/promo.jpeg",
+      "banner": "https://stevelovescartoons.s3.us-east-2.amazonaws.com/shows/demon_slayer_kimetsu_no_yaiba_entertainment_district_arc/assets/banner.jpeg",
       "year": "2021",
-      "studio": "Ufotable"
+      "studio": "Ufotable",
+      "episodes": "11"
     }
   ]
 }

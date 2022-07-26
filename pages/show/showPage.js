@@ -4,6 +4,7 @@ import Axios from "axios";
 import Header from "../components/header";
 import Footer from "../components/footer";
 import Banner from "./banner";
+import ShowImage from './showImage';
 
 class ShowPage extends react.Component {
   constructor () {
@@ -37,6 +38,11 @@ class ShowPage extends react.Component {
         <div className='show-page-main-wrapper'>
           <Header />
           <Banner url={this.state.banner}/>
+          <div className='sp-bellow-wrapper'>
+            <div className='show-details'>
+              <ShowImage url={this.state.promo}/>
+            </div>
+          </div>
           <Footer />
         </div>
       )
