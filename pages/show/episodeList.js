@@ -1,9 +1,12 @@
 import EpisodeItem from "./EpisodeItem";
 
 export default function EpisodeList (props) {
-
-  let e = [...Array(parseInt(props.showobj.episodes)).keys() || []];
-
+  let e = [];
+  try {
+    e = [...Array(parseInt(props.showobj.episodes)).keys()];
+  } catch {
+    e = [];
+  } 
   return (
     <div className="episode-list-wrapper">
       {e.map((episode, i) => {
