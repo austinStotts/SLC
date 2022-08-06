@@ -2,7 +2,7 @@ import EpisodeItem from "./EpisodeItem";
 
 export default function EpisodeList (props) {
 
-  let e = [...Array(parseInt(props.showobj.episodes)).keys()];
+  let e = [...Array(parseInt(props.showobj.episodes)).keys() || []];
 
   return (
     <div className="episode-list-wrapper">
