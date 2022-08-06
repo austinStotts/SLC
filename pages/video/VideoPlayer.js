@@ -23,7 +23,7 @@ export default class VideoPlayer extends React.Component {
   //
   // See: https://github.com/videojs/video.js/pull/3856
   render() {
-    console.log("\n- VIDEO PLAYER -\n")
+    //console.log("\n- VIDEO PLAYER -\n")
     return (
       <div data-vjs-player>
         <video ref={node => this.videoNode = node} className="video-js"></video>

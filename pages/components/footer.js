@@ -10,7 +10,7 @@ const Footer = (props) => {
     <div className="footer">
       <div className="inner-footer">
         <ul className='footer-list'>
-          <a className='version'><li>{`Version: 0.0.3`}</li></a>
+          <a className='version'><li>{`Version: 0.1.1`}</li></a>
           <a className='author'><li>{`Steve`}</li></a>
         </ul>
       </div>
