@@ -17,10 +17,10 @@ class HomeList extends Component {
 
   getData () {
     if(!this.state.shows.length > 0) {
-      console.log(this.props.showid)
+      // console.log(this.props.showid)
       Axios.get(`/api/search/all`)
       .then(data => {
-        console.log("got the stuff");
+        //console.log("got the stuff");
         this.setState({ shows: data.data.data.rows });
       }).catch(err => {console.log(err)});
     }
@@ -28,13 +28,15 @@ class HomeList extends Component {
 
   render () {
     this.getData();
-    console.log(this.state.shows)
+    //console.log(this.state.shows)
     if(this.state.shows.length > 0) {
       return (
         <div className="shows-wrapper">
-          {this.state.shows.map((show) => {
-              console.log(show);
-              return <ShowItem show={JSON.parse(show.showjson)} key={show.name}/>
+          {this.state.shows.map((show, i) => {
+              let showjson = JSON.parse(show.showjson);
+              if(showjson.public) {
+                return <ShowItem key={i} show={showjson}/>
+              } else return 
           })
           }
         </div>

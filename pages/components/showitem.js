@@ -1,3 +1,4 @@
+import { loadGetInitialProps } from 'next/dist/shared/lib/utils';
 import { useRouter } from 'next/router';
 
 
@@ -10,7 +11,7 @@ const ShowItem = ({ show }) => {
   // console.log(show);
   if(show) {
     return (
-      <div className="show-wrapper" onClick={toShowPage}>
+      <div key={show.key} className="show-wrapper" onClick={toShowPage}>
         <img src={show.promo} className="show-promo"></img>
         <div className="show-info">
           <div className="show-title">{show.name}</div>

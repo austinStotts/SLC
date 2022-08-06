@@ -4,7 +4,6 @@ import 'video.js/dist/video-js.css';
 
 export default class VideoPlayer extends React.Component {
 
-
   // Instantiate a Video.js player when the component mounts
   componentDidMount() {
     this.player = videojs(this.videoNode, this.props, () => {
@@ -24,11 +23,10 @@ export default class VideoPlayer extends React.Component {
   //
   // See: https://github.com/videojs/video.js/pull/3856
   render() {
+    console.log("\n- VIDEO PLAYER -\n")
     return (
       <div data-vjs-player>
-        <video ref={node => this.videoNode = node} className="video-js">
-          <source src={``}></source>
-        </video>
+        <video ref={node => this.videoNode = node} className="video-js"></video>
       </div>
     );
   }
