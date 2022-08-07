@@ -1,3 +1,38 @@
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+}
+
+#__next {
+    height: 100%;
+}
+
+.video-main-wrapper {
+    height: 100%;
+    border: 1px solid transparent;
+    display: block;
+}
+
+.video-page {
+
+}
+
 .video-wrapper {
-    height: 700px;
+    height: 100%;
+}
+
+.video-sep {
+    margin-top: 150px;
+    height: 100%;
+}
+
+.video-js {
+    width: 70% !important;
+    height: 60%;
+    margin-left: 15%;
+    max-width: 1280px;
+    max-height: 720px;
+
 }

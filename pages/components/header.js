@@ -7,7 +7,7 @@ const Header = (props) => {
   }
 
   return (
-    <div className="header">
+    <div className={`header ${props.ss}`}>
       <div className="inner-header">
         <div className="logo-container" onClick={(e) => {route(`/`)}}>
           <div className="logo">

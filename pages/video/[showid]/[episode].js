@@ -2,6 +2,9 @@ import { useRouter } from "next/router";
 import { useEffect } from "react";
 import VideoLayer from "./videoLayer"
 
+import Header from "../../components/header";
+import Footer from "../../components/footer";
+
 export default function Player () {
   // let router = useRouter()
   // let showid = "";
@@ -17,5 +20,13 @@ export default function Player () {
 
   // //if (episode.length == 1) {episode = `0${episode}`};
   
-  return (<VideoLayer/>)
+  return (
+    <div className="video-main-wrapper">
+      <Header ss="video-page"/>
+      <div className="video-sep">
+        <VideoLayer/>
+      </div>      
+      <Footer /> 
+    </div>
+    )
 }
