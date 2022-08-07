@@ -4,19 +4,20 @@ body {
 
 .ultra-wrapper {
   overflow: hidden;
-}
+  height: 100%
+;}
 
 .shows-wrapper {
   padding: 5%;
   display: grid;
   grid-template-columns: repeat(6, 230px);
   grid-auto-rows: 310px;
-  row-gap: 10%;
+  row-gap: 45px;
   column-gap: 5%;
   max-width: 2000px;
   margin-top: 75px;
   z-index: 0;
-  height: 1500px;
+  height: 100% + 75px;
 }
 
 
@@ -58,7 +59,7 @@ body {
   .shows-wrapper {
 
     grid-template-columns: repeat(1, 230px);
-
+    margin-left: 45px;
   }
 }
 
@@ -145,6 +146,13 @@ body {
   height: 310px;
   border-radius: 10px;
   /* margin-left: 50%; */
+}
+
+
+.break {
+  border: 1px solid rgb(71, 67, 67);
+  display: block;
+  margin: 45px 0px;
 }
 
 /* // // // // // // // // // // // // //*/

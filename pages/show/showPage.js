@@ -7,6 +7,7 @@ import Banner from "./banner";
 import ShowImage from './showImage';
 import EpisodeList from "./episodeList";
 import { Router, useRouter } from "next/router";
+import Break from "../components/Break";
 
 class ShowPage extends react.Component {
   constructor () {
@@ -47,7 +48,15 @@ class ShowPage extends react.Component {
           <div className='sp-bellow-wrapper'>
             <div className='show-details'>
               <ShowImage url={this.state.promo}/>
+              <div className="details-wrapper">
+                <p className="sp-name">{this.state.name}</p>
+                <p className="sp-studio sp-item"><span className="sp-label">studio </span>{this.state.studio}</p>
+                <p className="sp-year sp-item"><span className="sp-label">year </span>{this.state.year}</p>
+                <p className="sp-season sp-item"><span className="sp-label">season </span>{this.state.season}</p>
+                <p className="sp-status sp-item"><span className="sp-label">status </span>{this.state.status}</p>
+              </div>
             </div>
+            <Break />
             <EpisodeList showobj={this.state} handleEpisode={this.handleEpisode}/>
           </div>
           <Footer />
