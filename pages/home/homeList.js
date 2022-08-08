@@ -31,7 +31,7 @@ class HomeList extends Component {
     //console.log(this.state.shows)
     if(this.state.shows.length > 0) {
       return (
-        <div className="shows-wrapper">
+        <center><div className="shows-wrapper">
           {this.state.shows.map((show, i) => {
               let showjson = JSON.parse(show.showjson);
               if(showjson.public) {
@@ -39,7 +39,7 @@ class HomeList extends Component {
               } else return 
           })
           }
-        </div>
+        </div></center>
       )
     } else {
       return (

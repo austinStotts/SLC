@@ -12,7 +12,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>{`|SLC| ${kawaii[Math.floor(Math.random() * kawaii.length)]}`}</title>
+        <title>{`SLC . ${kawaii[Math.floor(Math.random() * kawaii.length)]}`}</title>
       </Head>
       <Component {...pageProps} />
     </>
