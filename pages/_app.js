@@ -13,6 +13,7 @@ function MyApp({ Component, pageProps }) {
     <>
       <Head>
         <title>{`SLC . ${kawaii[Math.floor(Math.random() * kawaii.length)]}`}</title>
+        
       </Head>
       <Component {...pageProps} />
     </>
