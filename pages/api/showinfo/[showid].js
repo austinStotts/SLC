@@ -1,8 +1,11 @@
 import pg from "pg";
 
+
+
+console.log(process.env.PURL)
 export default function handler (req, res) {
   
-  let connectionString = "postgres://ebddjabf:u2RaNK1qawGzXy-xatygoQAI94cdkD2q@fanny.db.elephantsql.com/ebddjabf"
+  let connectionString = process.env.PURL;
   let client = new pg.Client(connectionString);
   console.log(req.query.showid)
   if(req.query.showid == 'undefined') {
