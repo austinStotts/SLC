@@ -27,7 +27,7 @@ export default function handler(req, res) {
           client.end();
         })
       } else {
-        client.query(`SELECT * FROM shows WHERE showid = '${req.query.search}';`)
+        client.query(`SELECT * FROM shows WHERE showid LIKE '%${req.query.search}%';`)
         .then(response => {
           // console.log(response);
           res.status(200).json({ "data": response });
@@ -35,6 +35,7 @@ export default function handler(req, res) {
         }).catch(err => {
           console.log(err);
           res.status(404);
+          res.send()
           client.end();
         })
       }
