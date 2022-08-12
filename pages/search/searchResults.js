@@ -12,28 +12,38 @@ export default class SearchResults extends Component {
             list: ""
         }
 
+        this.timeout = 0;
+
         this.updateHandler = this.updateHandler.bind(this);
         this.submitSearch = this.submitSearch.bind(this);
         this.cleanString = this.cleanString.bind(this);
+        this.handleTime = this.handleTime.bind(this);
     }
 
     updateHandler (e) {
         if(e.key == "Enter") {
-            console.log(this.state.searchString);
-            this.submitSearch();
+            this.handleTime()
         } else {
-            this.setState({searchString: e.target.value})
+            this.setState({searchString: e.target.value}, () => {
+                this.handleTime()
+            })
         }
     }
 
+    handleTime () {
+        if(this.timeout) clearTimeout(this.timeout);
+        this.timeout = setTimeout(() => {
+          this.submitSearch()
+        }, 300);
+    }
+
     submitSearch () {
-        console.log(this.cleanString(this.state.searchString));
         Axios.get(`/api/search/${this.cleanString(this.state.searchString)}`)
         .then(r => {
             // console.log(r.data.data.rows);
             this.setState({list: r.data.data.rows})
         }).catch(e => {
-            console.log(e);
+            console.log("roor in search request");
         })
     }
 
@@ -51,7 +61,9 @@ export default class SearchResults extends Component {
                     <button className="search-btn" onClick={this.submitSearch}><span className="material-symbols-outlined arrow">arrow_forward</span></button>
                 </ul>
                 </center>
+                <center>
                 <SearchList list={this.state.list} ts={this.props.ts}/>
+                </center>
             </div>
         )
     }
