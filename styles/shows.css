@@ -336,6 +336,7 @@ body {
 .search-item-wrapper:hover {
   border-color: rebeccapurple;
   cursor: pointer;
+  background-color: rgba(116, 116, 116, 0.2);
 }
 
 .search-item-wrapper a {
