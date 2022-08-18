@@ -12,13 +12,13 @@ export default function About() {
     <div className="about-wrapper">
       <Header showsearch={"true"} searchHandler={searchHandler}/>
       <div className="about-body">
-        <p>Hello!</p>
-        <p>I'm steve</p>
-        <p>I love Cartoons</p>
-        <p>This is a hobby project if mine not intended for use by anyone besides myself</p>
-        <p>But since you are here... please have a look around</p>
-        <p>Let me know what you think</p>
-        <p>~steve</p>
+        <p>{"Hello!"}</p>
+        <p>{"I'm steve"}</p>
+        <p>{"I love Cartoons"}</p>
+        <p>{"This is a hobby project if mine not intended for use by anyone besides myself"}</p>
+        <p>{"But since you are here... please have a look around"}</p>
+        <p>{"Let me know what you think"}</p>
+        <p>{"~steve"}</p>
       </div>
       <Footer/>
     </div>
