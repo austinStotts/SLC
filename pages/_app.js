@@ -4,6 +4,7 @@ import styles from '../styles/shows.css'
 import pagestyles from '../styles/showpage.css'
 import headerstyle from '../styles/header.css'
 import playerstyle from '../styles/player.css'
+import aboutStyles from '../styles/about.css'
 
 let kawaii = ['(^=◕ᴥ◕=^)', '(* ^ ω ^)', '(─‿‿─)', '(っ˘ω˘ς )', '(¬‿¬ )', '(ｏ・_・)ノ”(ノ_<、)', '(」°ロ°)」', '(＞﹏＜)', '( ` ω ´ )', '.･ﾟﾟ･(／ω＼)･ﾟﾟ･.', '┐(‘～` )┌', 'ᕕ( ᐛ )ᕗ'];
 

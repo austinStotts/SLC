@@ -19,7 +19,7 @@ const Header = (props) => {
         <ul className="header-list">
             <a><li onClick={(e) => {route(`/`)}}>Home</li></a>
             <a><li onClick={(e) => {route(`/`)}}>Shows</li></a>
-            <a><li onClick={(e) => {route(`/`)}}>About</li></a>
+            <a><li onClick={(e) => {route(`/about/$`)}}>About</li></a>
             {props.showsearch ? <a onClick={props.searchHandler}><li><span className="material-symbols-sharp">search</span></li></a> : <></>}
             {/* <a> <li><input type="text" placeholder="search"></input></li> */}
         </ul>

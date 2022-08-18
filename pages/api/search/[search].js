@@ -2,7 +2,7 @@ import pg from "pg";
 
 // import purl from "../../../purl.json";
 
-console.log(process.env.PURL)
+// console.log(process.env.PURL)
 export default function handler(req, res) {
   let connectionString = process.env.PURL;
   let client = new pg.Client(connectionString);
@@ -15,7 +15,7 @@ export default function handler(req, res) {
       client.end();
     } else {
       if(req.query.search == 'all') {
-        console.log("ALL!!")
+        // console.log("ALL!!")
         client.query(`SELECT * FROM shows;`)
         .then(response => {
           // console.log(response);
