@@ -19,7 +19,7 @@ export default function Player () {
   //   }, [router.isReady]);
 
   // //if (episode.length == 1) {episode = `0${episode}`};
-  
+
   return (
     <div className="video-main-wrapper">
       <Header ss="video-page"/>
