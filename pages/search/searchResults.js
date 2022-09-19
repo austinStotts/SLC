@@ -38,13 +38,15 @@ export default class SearchResults extends Component {
     }
 
     submitSearch () {
-        Axios.get(`/api/search/${this.cleanString(this.state.searchString)}`)
-        .then(r => {
-            // console.log(r.data.data.rows);
-            this.setState({list: r.data.data.rows})
-        }).catch(e => {
-            console.log("roor in search request");
-        })
+        if(this.state.search != "") {
+            Axios.get(`/api/search/${this.cleanString(this.state.searchString)}`)
+            .then(r => {
+                // console.log(r.data.data.rows);
+                this.setState({list: r.data.data.rows})
+            }).catch(e => {
+                console.log("roor in search request");
+            })
+        }
     }
 
     cleanString (s) {
