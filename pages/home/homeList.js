@@ -34,7 +34,7 @@ class HomeList extends Component {
         <center><div className="shows-wrapper">
           {this.state.shows.map((show, i) => {
               let showjson = JSON.parse(show.showjson);
-              if(showjson.public) {
+              if(showjson.public == "true") {
                 return <ShowItem key={i} show={showjson}/>
               } else return 
           })

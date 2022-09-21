@@ -55,3 +55,13 @@ body {
 .episode {
     font-family: 'Roboto Mono', monospace;
 }
+
+.notplaying-wrapper {
+    font-family: 'Roboto Mono', monospace;
+    margin: 20px 0px 0px 30px;
+}
+
+.np-p {
+    color: rebeccapurple;
+    font-size: 1.3em;
+}
