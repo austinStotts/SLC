@@ -29,12 +29,8 @@ body {
 }
 
 .video-js {
-    width: 70% !important;
-    height: 60%;
-    margin-left: 15%;
     max-width: 1280px;
     max-height: 720px;
-
 }
 
 .details-wrapper {

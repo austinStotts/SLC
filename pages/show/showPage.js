@@ -22,12 +22,12 @@ class ShowPage extends react.Component {
 
   getData () {
     //console.log("state:",this.state)
-    console.log("showid",this.props.showid);
+    // console.log("showid",this.props.showid);
     if(this.props.showid && !this.state.showid) {
       //console.log(this.props.showid)
       Axios.get(`/api/showinfo/${this.props.showid}`)
       .then(data => {
-        console.log(data)
+        // console.log(data)
         //console.log("got the stuff");
         let show = JSON.parse(data.data.rows[0].showjson);
         //console.log(show)

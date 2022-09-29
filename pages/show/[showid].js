@@ -14,7 +14,7 @@ export default function Show (props) {
 
   const router = useRouter();
   const showid = router.query.showid;
-  console.log(router.query)
+  // console.log(router.query)
 
   return (
     <ShowPage showid={showid}/>

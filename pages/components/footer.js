@@ -6,11 +6,12 @@ const Footer = (props) => {
     router.push(`${string}`);
   }
 
+
   return (
     <div className="footer">
       <div className="inner-footer">
         <ul className='footer-list'>
-          <a className='version'><li>{`Version: 0.2.2`}</li></a>
+          <a className='version'><li>{`Version: 0.3.1`}</li></a>
           <a className='author'><li>{`Steve`}</li></a>
         </ul>
       </div>
