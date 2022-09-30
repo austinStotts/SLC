@@ -6,6 +6,7 @@ import headerstyle from '../styles/header.css'
 import playerstyle from '../styles/player.css'
 import aboutStyles from '../styles/about.css'
 import video from '../styles/video.css'
+import resources from "../styles/resources.css"
 
 let kawaii = ['(^=◕ᴥ◕=^)', '(* ^ ω ^)', '(─‿‿─)', '(っ˘ω˘ς )', '(¬‿¬ )', '(ｏ・_・)ノ”(ノ_<、)', '(」°ロ°)」', '(＞﹏＜)', '( ` ω ´ )', '.･ﾟﾟ･(／ω＼)･ﾟﾟ･.', '┐(‘～` )┌', 'ᕕ( ᐛ )ᕗ'];
 

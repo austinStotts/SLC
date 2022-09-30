@@ -1,0 +1,15 @@
+.pp-wrapper-ultra {
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    padding: 25px;
+}
+
+.resources-list-wrapper {
+    padding: 25px;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.resources-list-wrapper a {
+    color: white !important;
+}
