@@ -12,4 +12,6 @@
 
 .resources-list-wrapper a {
     color: white !important;
+    display: block;
+    margin: 10px;
 }

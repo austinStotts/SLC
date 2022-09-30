@@ -143,3 +143,22 @@
   font-weight: 300;
   margin-top: 4px;
 }
+
+.resources-a {
+  color: grey;
+  text-decoration: none;
+  
+}
+
+.resources-a:hover {
+  text-decoration: underline;
+}
+
+.author {
+  color: gray;
+  text-decoration: none;
+}
+
+.author:hover {
+  text-decoration: underline;
+}
