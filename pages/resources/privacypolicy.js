@@ -37,7 +37,7 @@ export default function PrivacyPolicy() {
                         available) and on this platform.</li>
                     <li>Third-party service: refers to advertisers, contest sponsors, promotional and marketing partners, and others who
                         provide our content or whose products or services we think may interest you.</li>
-                    <li>Website: Steve Loves Cartoons's site, which can be accessed via this URL: https://stevelovescartoons.com/</li>
+                    <li>Website: Steve Loves Cartoons&apos;s site, which can be accessed via this URL: https://stevelovescartoons.com/</li>
                     <li>You: a person or entity that is registered with Steve Loves Cartoons to use the Services.</li>
                 </ul>
             </div>
@@ -71,7 +71,7 @@ export default function PrivacyPolicy() {
 
             <h1>Affiliates</h1>
             <p>We may disclose information (including personal information) about you to our Corporate Affiliates. For purposes of
-                this Privacy Policy, "Corporate Affiliate" means any person or entity which directly or indirectly controls, is
+                this Privacy Policy, &quot;Corporate Affiliate&quot; means any person or entity which directly or indirectly controls, is
                 controlled by or is under common control with Steve Loves Cartoons, whether by ownership or otherwise. Any
                 information relating to you that we provide to our Corporate Affiliates will be treated by those Corporate
                 Affiliates in accordance with the terms of this Privacy Policy.</p>
@@ -89,8 +89,8 @@ export default function PrivacyPolicy() {
                 significantly affect the use or disclosure of your personal information will mean that you accept those changes.</p>
 
             <h1>Your Consent</h1>
-            <p>We've updated our Privacy Policy to provide you with complete transparency into what is being set when you visit
-                our site and how it's being used. By using our website, registering an account, or making a purchase, you hereby
+            <p>We&apos;ve updated our Privacy Policy to provide you with complete transparency into what is being set when you visit
+                our site and how it&apos;s being used. By using our website, registering an account, or making a purchase, you hereby
                 consent to our Privacy Policy and agree to its terms.
             </p>
 
@@ -103,7 +103,7 @@ export default function PrivacyPolicy() {
                 subject to that website’s own rules and policies. Such third parties may use their own cookies or other methods to
                 collect information about you.</p>
             <h1>Cookies</h1>
-            <p>Steve Loves Cartoons uses "Cookies" to identify the areas of our website that you have visited. A Cookie is a small
+            <p>Steve Loves Cartoons uses &quot;Cookies&quot; to identify the areas of our website that you have visited. A Cookie is a small
                 piece of data stored on your computer or mobile device by your web browser. We use Cookies to enhance the
                 performance and functionality of our website but are non-essential to their use. However, without these cookies,
                 certain functionality like videos may become unavailable or you would be required to enter your login details every
@@ -112,14 +112,14 @@ export default function PrivacyPolicy() {
                 functionality on our website correctly or at all. We never place Personally Identifiable Information in Cookies.</p>
 
             <h1>Blocking and disabling cookies and similar technologies</h1>
-            <p>Wherever you're located you may also set your browser to block cookies and similar technologies, but this action
+            <p>Wherever you&apos;re located you may also set your browser to block cookies and similar technologies, but this action
                 may block our essential cookies and prevent our website from functioning properly, and you may not be able to fully
                 utilize all of its features and services. You should also be aware that you may also lose some saved information
                 (e.g. saved login details, site preferences) if you block cookies on your browser. Different browsers make different
                 controls available to you. Disabling a cookie or category of cookie does not delete the cookie from your browser,
-                you will need to do this yourself from within your browser, you should visit your browser's help menu for more
+                you will need to do this yourself from within your browser, you should visit your browser&apos;s help menu for more
                 information.</p>
-            <h1>Kids' Privacy</h1>
+            <h1>Kids&apos; Privacy</h1>
             <p>We collect information from kids under the age of 13 just to better our services. If You are a parent or guardian
                 and You are aware that Your child has provided Us with Personal Data without your permission, please contact Us. If
                 We become aware that We have collected Personal Data from anyone under the age of 13 without verification of
@@ -133,13 +133,13 @@ export default function PrivacyPolicy() {
 
             <h1>Third-Party Services</h1>
             <p>We may display, include or make available third-party content (including data, information, applications and other
-                products services) or provide links to third-party websites or services ("Third- Party Services").</p>
+                products services) or provide links to third-party websites or services (&quot;Third- Party Services&quot;).</p>
             <p>You acknowledge and agree that Steve Loves Cartoons shall not be responsible for any Third-Party Services,
                 including their accuracy, completeness, timeliness, validity, copyright compliance, legality, decency, quality or
                 any other aspect thereof. Steve Loves Cartoons does not assume and shall not have any liability or responsibility to
                 you or any other person or entity for any Third-Party Services.</p>
             <p>Third-Party Services and links thereto are provided solely as a convenience to you and you access and use them
-                entirely at your own risk and subject to such third parties' terms and conditions.</p>
+                entirely at your own risk and subject to such third parties&apos; terms and conditions.</p>
             <h1>Tracking Technologies</h1>
             <ul>
                 <li>Local Storage
@@ -155,7 +155,7 @@ export default function PrivacyPolicy() {
                             maintain this data under protection from being replicated or used in the wrong way.</p>
 
                         <h1>What is GDPR?</h1>
-                        <p>GDPR is an EU-wide privacy and data protection law that regulates how EU residents' data is protected by companies
+                        <p>GDPR is an EU-wide privacy and data protection law that regulates how EU residents&apos; data is protected by companies
                             and enhances the control the EU residents have, over their personal data.</p>
                         <p>The GDPR is relevant to any globally operating company and not just the EU-based businesses and EU residents. Our
                             customers’ data is important irrespective of where they are located, which is why we have implemented GDPR controls
@@ -178,19 +178,19 @@ export default function PrivacyPolicy() {
                         </ul>
 
                         <h1>Why is GDPR important?</h1>
-                        <p>GDPR adds some new requirements regarding how companies should protect individuals' personal data that they collect
+                        <p>GDPR adds some new requirements regarding how companies should protect individuals&apos; personal data that they collect
                             and process. It also raises the stakes for compliance by increasing enforcement and imposing greater fines for
-                            breach. Beyond these facts it's simply the right thing to do. At Steve Loves Cartoons we strongly believe that your
+                            breach. Beyond these facts it&apos;s simply the right thing to do. At Steve Loves Cartoons we strongly believe that your
                             data privacy is very important and we already have solid security and privacy practices in place that go beyond the
                             requirements of this new regulation.</p>
 
-                        <h1>Individual Data Subject's Rights - Data Access, Portability and Deletion</h1>
+                        <h1>Individual Data Subject&apos;s Rights - Data Access, Portability and Deletion</h1>
                         <p>We are committed to helping our customers meet the data subject rights requirements of GDPR. Steve Loves Cartoons
                             processes or stores all personal data in fully vetted, DPA compliant vendors. We do store all conversation and
                             personal data for up to 6 years unless your account is deleted. In which case, we dispose of all data in accordance
                             with our Terms of Service and Privacy Policy, but we will not hold it longer than 60 days.</p>
                         <p>We are aware that if you are working with EU customers, you need to be able to provide them with the ability to
-                            access, update, retrieve and remove personal data. We got you! We've been set up as self service from the start and
+                            access, update, retrieve and remove personal data. We got you! We&apos;ve been set up as self service from the start and
                             have always given you access to your data and your customers data. Our customer support team is here for you to
                             answer any questions you might have about working with the API.</p>
                         <h1>California Residents</h1>
@@ -207,7 +207,7 @@ export default function PrivacyPolicy() {
                             <li>Right to Equal Service. We will not discriminate against you if you exercise your privacy rights.</li>
                             <li>Right to Delete. You may submit a verifiable request to close your account and we will delete Personal
                                 Information about you that we have collected.</li>
-                            <li>Request that a business that sells a consumer's personal data, not sell the consumer's personal data.</li>
+                            <li>Request that a business that sells a consumer&apos;s personal data, not sell the consumer&apos;s personal data.</li>
                         </ul>
                         <p>If you make a request, we have one month to respond to you. If you would like to exercise any of these rights,
                             please contact us.</p>
@@ -226,7 +226,7 @@ export default function PrivacyPolicy() {
                             <li>Right to Equal Service. We will not discriminate against you if you exercise your privacy rights.</li>
                             <li>Right to Delete. You may submit a verifiable request to close your account and we will delete Personal
                                 Information about you that we have collected.</li>
-                            <li>Right to request that a business that sells a consumer's personal data, not sell the consumer's personal data.
+                            <li>Right to request that a business that sells a consumer&apos;s personal data, not sell the consumer&apos;s personal data.
                             </li>
                         </ul>
                         <p>If you make a request, we have one month to respond to you. If you would like to exercise any of these rights,
@@ -234,7 +234,7 @@ export default function PrivacyPolicy() {
                         <p>We do not sell the Personal Information of our users.</p>
                         <p>For more information about these rights, please contact us.</p>
                         <h1>Contact Us</h1>
-                        <p>Don't hesitate to contact us if you have any questions.</p>
+                        <p>Don&apos;t hesitate to contact us if you have any questions.</p>
                         <ul>
                             <li>Via Email: stevelovescartoons@gmail.com</li>
                         </ul>
