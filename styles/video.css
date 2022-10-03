@@ -51,13 +51,14 @@ body {
     font-style: italic;
     font-family: 'Roboto Mono', monospace;
     transition-duration: 0.vp-3s;
+    width: 110px;
 }
 
 .vp-episode:hover {
     color: #94a3b8;
 }
 
-.vp-favorite-fill {
+.vp-fav-fill {
     float: right;
     padding-right: 25px;
     color: #f87171;
@@ -83,9 +84,11 @@ body {
     cursor: pointer;
 }
 
-.vp-favorite-fill:hover {
+.vp-fav-fill:hover {
     cursor: pointer;
 }
+
+
 
 .vp-comments-wrapper {
     /* border: 1px solid white; */

@@ -17,6 +17,7 @@ export default class Player extends Component {
         }]
       }
     }
+    this.favorite = this.favorite.bind(this);
   }
 
   componentDidMount() {
@@ -51,6 +52,15 @@ export default class Player extends Component {
           this.setState({ view: "notplaying" })
         }
       })
+  }
+
+  favorite (e) {
+    if(e.target.className.includes("vp-favorite")) {
+      e.target.className = "vp-fav-fill material-symbols-outlined";
+    } else {
+      e.target.className = "vp-favorite material-symbols-outlined";
+    }
+    
   }
 
 
@@ -88,7 +98,7 @@ export default class Player extends Component {
             </div>
             <div className="vp-details-wrapper">
               <div className="vp-title">{this.state.show.name}</div>
-              <span id="vp-favorite" className="vp-favorite material-symbols-outlined">favorite</span>
+              <span id="vp-favorite" className="vp-favorite material-symbols-outlined" onClick={this.favorite}>favorite</span>
               <div className="vp-episode">{`Episode: ${this.state.episode}`}</div>
             </div>
             <div className="vp-comments-wrapper">
