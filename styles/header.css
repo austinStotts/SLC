@@ -4,7 +4,7 @@
   display: block;
   height: 50px;
   color: white;
-  border-bottom: 3px solid rebeccapurple;
+  border-bottom: 3px solid #3b82f6;
   background-color: rgba(0, 0, 0, 0.7);
   font-family: 'Roboto', sans-serif;
   overflow: hidden;
@@ -78,7 +78,7 @@
 
 .header-list a li:hover {
   cursor: pointer;
-  color: rgb(163, 100, 226);
+  color: #3b82f6;
 }
 
 
@@ -91,7 +91,7 @@
   bottom: 0;
   height: 40px;
   color: grey;
-  border-bottom: 3px solid rebeccapurple;
+  border-bottom: 3px solid #3b82f6;
   background-color: #232323;
   font-family: 'Roboto', sans-serif;
   overflow: hidden;

@@ -82,12 +82,12 @@ body::-webkit-scrollbar {
   margin: 10px 0px;
   */
   width: 250px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Mono', monospace;
   color: white;
-  transition-duration: 0.1s; 
+  transition-duration: 0.3s; 
   font-size: 25px;
-  border-radius: 25px;
-  border: 2px solid rebeccapurple;
+  border-radius: 15px;
+  border: 2px solid #3b82f6;
   text-align: center;
   margin: 5px 0px;
 }
@@ -100,9 +100,10 @@ body::-webkit-scrollbar {
 }
 
 .episode-item-wrapper:hover {
-  background-color: rebeccapurple;
+  background-color: #3b82f6;
   cursor: pointer;
   color: black;
+  margin-left: 10px;
 }
 
 .episode-list-wrapper {
@@ -125,8 +126,8 @@ body::-webkit-scrollbar {
 
 .sp-item {
   font-family: 'Roboto', sans-serif;
-  font-size: 25px;
-  color: rebeccapurple;
+  font-size: 20px;
+  color: #93c5fd;
   font-weight: 600;
   font-style: italic;
 }

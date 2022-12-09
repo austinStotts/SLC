@@ -11,6 +11,7 @@ export default function About() {
   return (
     <div className="about-wrapper">
       <Header showsearch={"true"} searchHandler={searchHandler}/>
+      <center>
       <div className="about-body">
         <p>{"Hello!"}</p>
         <p>{"I'm steve"}</p>
@@ -20,6 +21,7 @@ export default function About() {
         <p>{"Let me know what you think"}</p>
         <p>{"~steve"}</p>
       </div>
+      </center>
       <Footer/>
     </div>
   )

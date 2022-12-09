@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(26, 26, 26);
+  background-color: #0f172a;
 }
 
 .ultra-wrapper {
@@ -161,7 +161,7 @@ body {
 
 
 .break {
-  border: 1px solid rgb(71, 67, 67);
+  border: 1px solid #1e293b;
   display: block;
   margin: 45px 0px;
 }
