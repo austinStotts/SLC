@@ -1,0 +1,24 @@
+.input-signup {
+    width: 200px;
+    height: 20px;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    padding-left: 5px;
+    display: block;
+    margin: 10px;
+}
+
+.input-signup::placeholder {
+    color: white;
+    font-style: italic;
+}
+
+.signup-button {
+    margin: 10px;
+}
+
+.helper {
+    color: red;
+}
