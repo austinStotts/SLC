@@ -9,7 +9,7 @@ body {
 
 .shows-wrapper {
   padding: 5%;
-  padding-top: 10%;
+  padding-top: 25px;
   display: grid;
   grid-template-columns: repeat(6, 230px);
   grid-auto-rows: 310px;
@@ -393,4 +393,28 @@ body {
 
 .search-box {
   padding-bottom: 150px;
+}
+
+.controls-wrapper {
+  /* border: 1px solid red; */
+  display: block;
+  padding-top: 10%;
+}
+
+.con {
+  border: 1px solid #3b82f6;
+  color: white;
+  border-radius: 10px;
+  height: 25px;
+  width: 100px;
+  background-color: transparent;
+  transition-duration: 0.3s;
+  font-family: 'Roboto Mono', monospace;
+  margin: 0px 10px;
+  padding: 2px;
+}
+
+.active {
+  background-color: #3b82f6;
+  color: black;
 }
