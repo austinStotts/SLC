@@ -22,6 +22,11 @@ body {
   height: 100%;
 }
 
+.controls-wrapper {
+  /* border: 1px solid red; */
+  display: block;
+  padding-top: 10%;
+}
 
 @media only screen and (max-width: 2560px) {
   .shows-wrapper {
@@ -71,6 +76,10 @@ body {
     grid-template-columns: repeat(1, 230px);
     width: 230px;
     column-gap: 50px;
+  }
+
+  .controls-wrapper {
+    padding-top: 20%;
   }
 }
 
@@ -124,9 +133,13 @@ body {
 .show-studio {
   font-family: 'Roboto', sans-serif;
   color: white;
-  font-size: 20px;
+  font-size: 18px;
   position: absolute;
+  word-wrap: normal;
+  max-height: 40px;
+  width: 80px;
   bottom: 5%;
+  margin-left: 0px;
   left: 20%;
   padding: 4px 8px;
   -webkit-transform: translate(-50%, -50%);
@@ -284,7 +297,7 @@ body {
 
 .search-btn:hover {
   cursor: pointer;
-  background-color: rebeccapurple;
+  background-color: #3b82f6;
   color: black;
 }
 
@@ -298,7 +311,7 @@ body {
 
 .search-item {
   color: white;
-  border: 2px solid rebeccapurple;
+  border: 2px solid #3b82f6;
   border-radius: 2px;
   font-family: 'Roboto', sans-serif;
   width: fit-content;
@@ -310,7 +323,7 @@ body {
 .search-item:hover {
   cursor: pointer;
   color: black;
-  background-color: rebeccapurple;
+  background-color: #3b82f6;
   margin-left: 30px;
 }
 
@@ -334,7 +347,7 @@ body {
 }
 
 .search-item-wrapper:hover {
-  border-color: rebeccapurple;
+  border-color: #3b82f6;
   cursor: pointer;
   background-color: rgba(116, 116, 116, 0.2);
 }
@@ -395,18 +408,32 @@ body {
   padding-bottom: 150px;
 }
 
-.controls-wrapper {
-  /* border: 1px solid red; */
-  display: block;
-  padding-top: 10%;
+
+#c1 {
+  border-radius: 15px 0px 0px 15px;
+  margin-right: 0px;
 }
+
+#c2 {
+  border-radius: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}
+
+#c3 {
+  border-radius: 0px 15px 15px 0px;
+  margin-left: 0px;
+}
+
 
 .con {
   border: 1px solid #3b82f6;
   color: white;
-  border-radius: 10px;
-  height: 25px;
-  width: 100px;
+  border-radius: 15px;
+  height: 30px;
+  width: 65px;
   background-color: transparent;
   transition-duration: 0.3s;
   font-family: 'Roboto Mono', monospace;

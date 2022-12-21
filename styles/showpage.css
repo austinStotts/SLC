@@ -30,7 +30,7 @@ body::-webkit-scrollbar {
   grid-template-rows: auto; */
   margin-left: 5%;
   margin-right: 5%;
-  min-height: 3500px;
+  min-height: 2000px;
 }
 
 
@@ -116,18 +116,32 @@ body::-webkit-scrollbar {
   font-family: 'Roboto', sans-serif;
   color: white;
   font-weight: 700;
+  margin-bottom: 0px;
+}
+
+.sp-native {
+  margin-top: 5px;
+  color: white;
 }
 
 .sp-label {
   font-family: 'Roboto Mono', monospace;
   color: white;
-  font-size: 17px;
+  font-size: 20px;
+  margin: 3px;
+  margin-left: 0px;
 }
 
 .sp-item {
   font-family: 'Roboto', sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   color: #93c5fd;
-  font-weight: 600;
+  font-weight: 200;
   font-style: italic;
+  margin: 3px;
+  margin-left: 0px;
+}
+
+.sp-year {
+  color: rgb(255, 60, 60);
 }

@@ -66,7 +66,7 @@ class HomeList extends Component {
       return (
         <div>
           <center><div className="controls-wrapper">
-            <button id="c1" className="con active default" onClick={(e) => {this.switchOrder(e, "default")}}>favorites</button>
+            <button id="c1" className="con active default" onClick={(e) => {this.switchOrder(e, "default")}}>update</button>
             <button id="c2" className="con abc" onClick={(e) => {this.switchOrder(e, "abc")}}>abc</button>
             <button id="c3" className="con zyx" onClick={(e) => {this.switchOrder(e, "zyx")}}>zyx</button>
           </div></center>

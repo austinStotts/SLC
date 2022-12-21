@@ -8,6 +8,8 @@ const ShowItem = ({ show }) => {
   const toShowPage = () => {
     router.push(`/show/${show.showid}`);
   }
+
+
   // console.log(show);
   if(show) {
     return (
@@ -15,7 +17,7 @@ const ShowItem = ({ show }) => {
         <img src={show.promo} className="show-promo"></img>
         <div className="show-info">
           <div className="show-title">{show.name}</div>
-          <div className="show-studio">{show.studio}</div>
+          <div className="show-studio" style={show.studio.length < 12 ? {} :{marginLeft: 15, bottom: 6, fontSize: 15}}>{show.studio}</div>
           <div className="show-year">{show.year}</div>
         </div>
       </div>

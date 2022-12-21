@@ -10,6 +10,7 @@ export default function Search () {
         router.push(`/show/${showid}`);
     }
 
+
     return (
         <div className="search-main-wrapper">
             <Header />

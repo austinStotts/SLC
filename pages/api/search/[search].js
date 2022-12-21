@@ -16,7 +16,7 @@ export default function handler(req, res) {
     } else {
       if(req.query.search == 'all') {
         // console.log("ALL!!")
-        client.query(`SELECT * FROM shows;`)
+        client.query(`SELECT * FROM shows ORDER BY id DESC;`)
         .then(response => {
           // console.log(response);
           res.status(200).json({ "data": response });

@@ -50,6 +50,7 @@ class ShowPage extends react.Component {
               <ShowImage url={this.state.promo}/>
               <div className="details-wrapper">
                 <p className="sp-name">{this.state.name}</p>
+                <p className="sp-native">{this.state.native}</p>
                 <p className="sp-studio sp-item"><span className="sp-label">studio </span>{this.state.studio}</p>
                 <p className="sp-year sp-item"><span className="sp-label">year </span>{this.state.year}</p>
                 <p className="sp-season sp-item"><span className="sp-label">season </span>{this.state.season}</p>
