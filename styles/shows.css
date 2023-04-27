@@ -5,7 +5,12 @@ body {
 .ultra-wrapper {
   height: 100%;
   width: 100%;
-;}
+
+}
+
+.center-wrapper {
+  background-color: #0f172a;
+}
 
 .shows-wrapper {
   padding: 5%;
@@ -20,6 +25,8 @@ body {
   padding-bottom: 300px;
   z-index: 0;
   height: 100%;
+
+  background-color: #0f172a;
 }
 
 .controls-wrapper {

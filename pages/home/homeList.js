@@ -70,7 +70,7 @@ class HomeList extends Component {
             <button id="c2" className="con abc" onClick={(e) => {this.switchOrder(e, "abc")}}>abc</button>
             <button id="c3" className="con zyx" onClick={(e) => {this.switchOrder(e, "zyx")}}>zyx</button>
           </div></center>
-        <center><div className="shows-wrapper">
+        <center className="center-wrapper"><div className="shows-wrapper">
 
           {this.state.shows.map((show, i) => {
               let showjson = JSON.parse(show.showjson);
