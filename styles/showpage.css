@@ -7,6 +7,9 @@ body::-webkit-scrollbar {
   
 }
 
+.search-main-wrapper {
+  background-color: #0f172a;
+}
 
 .showpage-wrapper {
   max-width: 100%;
@@ -16,9 +19,20 @@ body::-webkit-scrollbar {
   margin: 0px;
   padding: 0px;
   background-color: #0f172a;
+  
 }
 
+@media only screen and (max-width: 850px) {
+  .show-page-main-wrapper {
+    width: 559px;
+  }
 
+  .ss-show-header {
+    padding-left: 59px;
+  }
+}
+
+/* width: 559px; */
 /* wowß */
 
 .sp-banner {
@@ -31,7 +45,7 @@ body::-webkit-scrollbar {
   grid-template-rows: auto; */
   margin-left: 5%;
   margin-right: 5%;
-  min-height: 2000px;
+  /* min-height: 2000px; */
 }
 
 
@@ -52,6 +66,7 @@ body::-webkit-scrollbar {
   display: block;
   overflow: hidden;
   background-position: top;
+  width: 100%;
 }
 
 .sp-image {
@@ -109,7 +124,7 @@ body::-webkit-scrollbar {
 
 .episode-list-wrapper {
   margin-top: 30px;
-  
+  padding-bottom: 50px;
 }
 
 .sp-name {

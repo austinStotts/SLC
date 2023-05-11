@@ -43,7 +43,7 @@ class ShowPage extends react.Component {
       // console.log(this.state)
       return (
         <div className='show-page-main-wrapper'>
-          <Header />
+          <Header ss="ss-show-header"/>
           <Banner url={this.state.banner}/>
           <div className='sp-bellow-wrapper'>
             <div className='show-details'>

@@ -39,8 +39,8 @@ export default class Player extends Component {
                 options: {
                   autoplay: true,
                   controls: true,
-                  width: 640,
-                  height: 360,
+                  width: document.body.clientWidth < 800 ? 450 : 640,
+                  height: document.body.clientWidth < 800 ? 300 : 360,
                   sources: [{
                     src: `https://stevelovescartoons.s3.us-east-2.amazonaws.com/shows/${showid}/episodes/${episode}/video.mp4`,
                     type: 'video/mp4'
@@ -77,7 +77,7 @@ export default class Player extends Component {
 
   // this first block checks for data and will switch to the main view once the getter is back from the db
   // an animated spinner would be nice
-  // aslo checks if video playback is turned on in the db
+  // also checks if video playback is turned on in the db
   render() {
     if (this.state.view == "loading") {
       return (<div>loading</div>)
