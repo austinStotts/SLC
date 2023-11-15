@@ -1,15 +1,15 @@
 # SteveLovesCartoons
-### a video streaming web app built using
+### a video streaming web app built using:
 * React.js
-* * Node.js
+* Node.js
 * Next.js
 
-### full functionality including
+### full functionality including:
 * video library
-* * search
+* search
 * show info
 * video player
 
-###this app is for personal use only
+### this app is for personal use only
 
 ### see live site: https://stevelovescartoons.com
