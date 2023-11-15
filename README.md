@@ -11,7 +11,8 @@
 * video player
 
 #### App was build with a microservice archatecture
-##### see database and server: [private]  just know it uses postgresql and express to query the DB
+##### see database and server: [private]  
+##### just know it uses postgresql and express to query the DB
 
   
 ### this app is for personal use only
