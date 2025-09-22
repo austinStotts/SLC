@@ -37,3 +37,4 @@ yarn-error.log*
 purl.json
 ./.env
 
+.env

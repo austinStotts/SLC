@@ -6,7 +6,7 @@ export default function searchList (props) {
             return (<></>)
         } else if (props.list.length > 0) {
             return (<div className="search-list-wrapper">{props.list.map((s, i) => {
-                let show = JSON.parse(s.showjson);
+                let show = s;
                 // return (<p className="search-item" key={i} onClick={() => {props.ts(show.showid)}}>{show.name}</p>)
                 return (<SearchItem show={show} ts={props.ts} key={i}/>)
             })}</div>)

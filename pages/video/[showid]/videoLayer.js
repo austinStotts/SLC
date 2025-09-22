@@ -27,11 +27,11 @@ export default class Player extends Component {
     if (episode.length == 1) { episode = `0${episode}` };
     Axios.get('/api/showinfo/isplaying')
       .then(data => {
-        let isplaying = JSON.parse(data.data.rows[0].showjson).episodes;
-        if (isplaying == "1") {
+        // let isplaying = JSON.parse(data.data.rows[0].showjson).episodes;
+        if (true) {
           Axios.get(`/api/showinfo/${showid}`)
             .then(data => {
-              let show = JSON.parse(data.data.rows[0].showjson);
+              let show = data.data.data.rows[0]
               this.setState({
                 view: "video",
                 show: show,
